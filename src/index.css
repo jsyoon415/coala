@@ -1,13 +1,75 @@
+@font-face {
+    font-family: 'SejonghospitalBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/SejonghospitalBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family:
+        'SejonghospitalBold',
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        'Roboto',
+        'Oxygen',
+        'Ubuntu',
+        'Cantarell',
+        'Fira Sans',
+        'Droid Sans',
+        'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+/* login */
+.idinput {
+    max-width: 452px;
+}
+.center_div {
+    margin: 0 auto;
+    width: 35%;
+}
+/* footer */
+
+footer {
+    border-top: 1px solid transparent;
+    background-color: lightgray;
+
+    padding: 1rem 0;
+    /* margin: 1rem 0; */
+}
+
+.footer-message {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #000;
+    margin-bottom: 0.3rem;
+    margin: 0 0 0 0.6rem;
+}
+.footer-contact {
+    font-size: 0.9rem;
+    color: #000;
+    margin: 0.6rem;
+}
+.footer-copyright {
+    font-size: 0.9rem;
+    color: #000;
+    margin: 0.6rem;
+}
+.icons {
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+}
+.problemInput {
+    max-width: 452px;
+}
+.problemInput-wrap {
+    width: 50%;
 }
