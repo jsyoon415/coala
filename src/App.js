@@ -8,8 +8,7 @@ import { io } from 'socket.io-client';
 import ProblemViewer from './components/tools/ProblemViewer';
 import { useEffect } from 'react';
 
-const socket = io.connect(`http://52.78.213.172:13333`);
-
+const socket = io.connect(`ws://52.78.213.172:13333`);
 function App() {
     useEffect(() => {
         sessionStorage.clear();
